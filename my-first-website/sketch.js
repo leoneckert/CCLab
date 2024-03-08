@@ -9,10 +9,12 @@ function setup() {
   let cnv = createCanvas(800, 400);
   cnv.parent("p5-canvas-container")
   noCursor();
+  let name = "leon"
+  // above i put the canvas into the prepared div on the page
 }
 
 function draw() {
-  background(0, 70, 250);
+  background(0, 120, 250);
   
   push();
   translate(200, 200);
@@ -25,6 +27,7 @@ function draw() {
     circle(0,0, 90);
     
     
+
     // mouth
     fill(0);
     noStroke();
