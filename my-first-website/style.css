@@ -1,0 +1,82 @@
+/* CCLab CSS template project A */
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+/* title */
+#title-wrapper {
+    text-align: center;
+}
+.headline {
+    font-size: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+/* main content */
+#main-wrapper {
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.red {
+    color: coral;
+}
+
+.green {
+    color: aquamarine;
+}
+
+.yellow {
+    color: gold;
+}
+
+
+.two-columns{
+    display: flex;
+}
+.left {
+    width: 50%;
+    padding: 0px 10px 0px 0px; 
+}
+
+.right {
+    width: 50%;
+    padding: 0px 0px 0px 10px;
+}
+
+
+#footer {
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+/* Sketch placeholder */
+#p5-canvas-container img{
+    width: 800px;
+}
+
+
+
+/* home button */
+#home a {
+    position: fixed;
+    right: 50px;
+    top: 10px;
+    padding: 10px 20px;
+    color: dimgrey;
+    border: solid dimgrey 0.5px;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+
+#home a:hover {
+    background-color: coral;
+    color: black;
+}
