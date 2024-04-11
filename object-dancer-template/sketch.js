@@ -29,6 +29,10 @@ function draw() {
 
   dancer.update();
   dancer.display();
+
+  let fps = frameRate();
+  fill(255)
+  text(round(fps), 50, 50);
 }
 
 // You only code inside this class.
